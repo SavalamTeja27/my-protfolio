@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-size: 15px;
+}
+header{
+    background-color: rgb(11, 159, 218);
+    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    color: hsl(0, 0%, 1%);
+    background-color: beige;
+    height: 30px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin:5px;
+}
+.button:hover{
+    color:white ;
+    background-color: black;
+}
+header h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+}
+img{
+    height: 200px;
+}
+section{
+    height: 100vh;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+main{
+    padding: 20px;
+}
+h1{
+  color:  rgb(11, 159, 218);
+}
+.submit{
+    color:white;
+    background-color: rgb(11, 159, 218);
+    height: 30px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit:hover{
+    color: white;
+    background-color:rgb(11, 105, 142) ;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    height: 25px;
+}
+.fb{
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      height: 70px;
+      width: 70px;
+      border: none;
+      border-radius: 50%;
+      color: white;
+      background-color: rgb(11, 159, 218);
+}
+footer{
+    height: 100px;
+    background-color: black;
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
